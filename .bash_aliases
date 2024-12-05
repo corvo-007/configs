@@ -13,6 +13,10 @@ alias gp='git push'
 alias gl='git pull'
 alias gc='git commit -m'
 alias ga='git add'
+alias glg='git log'
+alias gst='git stash'
+alias gstl='git stash list'
+alias gstp='git stash pop'
 
 # cd
 alias ..='cd ..'
