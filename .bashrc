@@ -12,7 +12,10 @@ git_branch_2() {
 
 # gives - main
 git_branch_3() {
-	git branch --show-current
+	branch="$(git branch --show-current 2> /dev/null)"
+	if [ -n "$branch" ]; then
+		echo "($branch)"
+	fi
 }
 
 # make and change directory
