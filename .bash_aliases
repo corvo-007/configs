@@ -4,7 +4,7 @@ alias l.='ls -d .*'
 # apt, snap
 alias update='sudo apt update'
 alias upgrade='sudo apt upgrade'
-alias refresh='sudo apt refresh'
+alias refresh='sudo snap refresh'
 alias uur='sudo apt update && sudo apt upgrade -y && sudo snap refresh'
 
 # git
