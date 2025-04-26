@@ -1,11 +1,12 @@
 # configs
 
-Collection of personal configuration files and scripts
+Collection of personal configuration files and scripts.
 
-## Contents
-- .bashrc
-- aliases
-- git config
-- scripts
-- crontab
-- other configs
+```bash
+curl -s 'https://raw.githubusercontent.com/corvo-007/configs/refs/heads/main/setup.sh' -o setup.sh
+chmod u+x setup.sh
+./setup.sh
+. .bashrc
+```
+
+Update the PS1 variable - \\[\033[01;31m\\]$(git_branch)\\[\033[00m\\]

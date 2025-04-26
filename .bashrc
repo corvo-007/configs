@@ -1,17 +1,4 @@
-# git branch - add to PS1
-
-# gives - (main)
-git_branch_1() {
-	git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
-}
-
-# gives - main
-git_branch_2() {
-	git branch 2> /dev/null | grep '^*' | cut -d ' ' -f2
-}
-
-# gives - main
-git_branch_3() {
+git_branch() {
 	branch="$(git branch --show-current 2> /dev/null)"
 	if [ -n "$branch" ]; then
 		echo "($branch)"
