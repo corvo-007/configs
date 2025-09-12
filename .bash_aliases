@@ -1,5 +1,5 @@
 # ls
-alias l.='ls -d .*'
+alias l.='ls -d .* 2> /dev/null'
 alias ll.='ls -ld .* 2> /dev/null'
 
 # apt, snap
