@@ -10,3 +10,9 @@ chmod u+x setup.sh
 ```
 
 Update the PS1 variable - \\[\033[01;31m\\]$(git_branch)\\[\033[00m\\]
+
+# nvm
+
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+```
